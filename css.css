@@ -1,0 +1,33 @@
+body {
+    background: #fbfcff;
+
+}
+.jumbotron {
+    padding: 4em;
+    text-align: center;
+    background-image: url("../imgs/header.jpg");
+    background-size: cover;
+}
+
+.col-sm {
+    background: #e7ff7e;
+    padding: 1em;
+    margin:1em;
+}
+
+@media only screen and (max-width: 575px) {
+    .col-sm {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}
+
+.col-m {
+    margin-top: 2em;
+}
+
+.contact {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
